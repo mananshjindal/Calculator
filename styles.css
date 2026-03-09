@@ -5,9 +5,10 @@
 }
 .calculator-container {
   display: grid;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 50px 1fr;
+  border: 1px solid black;
+  width: 400px;
 }
-
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 100px);
